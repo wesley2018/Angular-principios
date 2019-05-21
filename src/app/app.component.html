@@ -1,0 +1,37 @@
+<style>
+  .d-flex {    
+	  display: inline-flex;    
+  }
+</style>
+
+<h1> 
+  Angular 
+</h1>
+<p>
+  Desenvolvimento - {{ nome1 }}
+</p>
+
+<ul>
+  <li *ngFor="let e of cid">
+    {{e}} 
+  </li>  
+</ul>
+
+<p>
+  Treinamento
+</p>
+
+<div class="d-flex" >
+  
+<button (click) = "onClickMe()" >
+  Clique aqui 
+</button> 
+
+<ul>
+  <li *ngIf="aparecer_mensagem == true">
+  {{ clickMessage }}
+  </li>
+</ul>
+  
+</div>
+
