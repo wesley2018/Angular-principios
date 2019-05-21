@@ -14,7 +14,6 @@ cid : string[] ;
 aparecer_mensagem: boolean = false;
 
 constructor(private cidades:Cidades){
- 
 } 
 
 ngOnInit(){
